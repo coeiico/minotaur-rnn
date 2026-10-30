@@ -2,11 +2,7 @@
 
 **RL maze explorer.** A CNN + LSTM agent trained with PPO to explore mazes, with its memory probed the same way as tiny-trace-tfm's.
 
-Part of the **Latent Space Project**: 18 small PyTorch repos that test one idea, that neural networks encode concepts and strategy in their latent space, and that we can read and edit those representations. Everything trains on a single consumer GPU or a laptop.
-
-| Roadmap | Phase | Depends on | Status |
-| --- | --- | --- | --- |
-| 10 of 18 | 4. Strategy and navigation | Maze generator from tiny-trace-tfm | Not started (scaffolded) |
+**Status:** not started.
 
 ## Question
 
@@ -27,7 +23,7 @@ Does an agent with memory, trained only on reward, learn to explore mazes, and d
 
 - It solves held-out mazes, and a table compares its probe results with tiny-trace-tfm's.
 
-Plus the definition of done every Latent Space Project repo shares:
+Plus the general checklist:
 
 Apply this checklist with the project-specific requirements and exceptions in
 [CLAUDE.md](CLAUDE.md#project-specific-scope).
