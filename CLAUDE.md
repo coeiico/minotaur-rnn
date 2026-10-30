@@ -124,6 +124,12 @@ remove an item that is done.
   update, so its environments can't be spread over containers. The maze environment reuses tiny-
   trace-tfm's generator.
 
+## Local Runs
+
+- Start every local training run, sweep or long analysis in tmux with `just bg <recipe> [args]`,
+  for example `just bg train --run-name wd1.0-seed0`. `tmux ls` lists the sessions and
+  `tmux attach -t <session>` watches one; each session's output is also in `runs/logs/`.
+
 ## Project Overview
 
 minotaur-rnn is project 10 of 18 in the Latent Space Project: small ML repos that test whether
